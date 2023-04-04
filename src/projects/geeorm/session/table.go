@@ -1,9 +1,9 @@
 package session
 
 import (
-	"Golearn/src/projects/geeorm/log"
-	"Golearn/src/projects/geeorm/schema"
 	"fmt"
+	"learn-go/src/projects/geeorm/log"
+	"learn-go/src/projects/geeorm/schema"
 	"reflect"
 	"strings"
 )

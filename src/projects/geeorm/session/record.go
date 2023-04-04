@@ -1,8 +1,8 @@
 package session
 
 import (
-	"Golearn/src/projects/geeorm/clause"
 	"errors"
+	"learn-go/src/projects/geeorm/clause"
 	"reflect"
 )
 

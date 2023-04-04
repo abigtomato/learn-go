@@ -1,10 +1,10 @@
 package xclient
 
 import (
-	"Golearn/src/projects/geerpc/client"
-	"Golearn/src/projects/geerpc/server"
 	"context"
 	"io"
+	"learn-go/src/projects/geerpc/client"
+	"learn-go/src/projects/geerpc/server"
 	"reflect"
 	"sync"
 )

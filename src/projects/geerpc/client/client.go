@@ -1,14 +1,14 @@
 package client
 
 import (
-	"Golearn/src/projects/geerpc/codec"
-	"Golearn/src/projects/geerpc/server"
 	"bufio"
 	"context"
 	"encoding/json"
 	"errors"
 	"fmt"
 	"io"
+	"learn-go/src/projects/geerpc/codec"
+	"learn-go/src/projects/geerpc/server"
 	"log"
 	"net"
 	"net/http"

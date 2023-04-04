@@ -1,7 +1,7 @@
 package geecache
 
 import (
-	"Golearn/src/projects/geecache/geecachepb"
+	"learn-go/src/projects/geecache/geecachepb"
 )
 
 // PeerPicker peer节点选择器

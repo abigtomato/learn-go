@@ -1,7 +1,7 @@
 package schema
 
 import (
-	"Golearn/src/projects/geeorm/dialect"
+	"learn-go/src/projects/geeorm/dialect"
 	"testing"
 )
 

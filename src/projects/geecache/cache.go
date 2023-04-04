@@ -1,7 +1,7 @@
 package geecache
 
 import (
-	"Golearn/src/projects/geecache/lru"
+	"learn-go/src/projects/geecache/lru"
 	"sync"
 )
 

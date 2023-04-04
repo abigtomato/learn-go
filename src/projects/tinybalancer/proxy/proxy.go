@@ -1,8 +1,8 @@
 package proxy
 
 import (
-	"Golearn/src/projects/tinybalancer/balancer"
 	"fmt"
+	"learn-go/src/projects/tinybalancer/balancer"
 	"log"
 	"net/http"
 	"net/http/httputil"

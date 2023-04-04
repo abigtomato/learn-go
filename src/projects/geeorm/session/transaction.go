@@ -1,7 +1,7 @@
 package session
 
 import (
-	"Golearn/src/projects/geeorm/log"
+	"learn-go/src/projects/geeorm/log"
 )
 
 func (s *Session) Begin() (err error) {

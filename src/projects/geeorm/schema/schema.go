@@ -1,8 +1,8 @@
 package schema
 
 import (
-	"Golearn/src/projects/geeorm/dialect"
 	"go/ast"
+	"learn-go/src/projects/geeorm/dialect"
 	"reflect"
 )
 

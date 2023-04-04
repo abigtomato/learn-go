@@ -1,8 +1,8 @@
 package tinybalancer
 
 import (
-	"Golearn/src/projects/tinybalancer/proxy"
 	"github.com/gorilla/mux"
+	"learn-go/src/projects/tinybalancer/proxy"
 	"log"
 	"net/http"
 	"strconv"

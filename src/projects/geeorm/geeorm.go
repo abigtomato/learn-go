@@ -1,12 +1,12 @@
 package geeorm
 
 import (
-	"Golearn/src/projects/geeorm/dialect"
-	"Golearn/src/projects/geeorm/log"
-	"Golearn/src/projects/geeorm/session"
 	"database/sql"
 	"fmt"
 	_ "github.com/mattn/go-sqlite3"
+	"learn-go/src/projects/geeorm/dialect"
+	"learn-go/src/projects/geeorm/log"
+	"learn-go/src/projects/geeorm/session"
 	"strings"
 )
 

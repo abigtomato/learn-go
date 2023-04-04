@@ -1,11 +1,11 @@
 package geecache
 
 import (
-	"Golearn/src/projects/geecache/consistenthash"
-	"Golearn/src/projects/geecache/geecachepb"
 	"fmt"
 	"github.com/golang/protobuf/proto"
 	"io"
+	"learn-go/src/projects/geecache/consistenthash"
+	"learn-go/src/projects/geecache/geecachepb"
 	"log"
 	"net/http"
 	"net/url"

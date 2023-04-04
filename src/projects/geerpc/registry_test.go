@@ -1,10 +1,10 @@
 package geerpc
 
 import (
-	"Golearn/src/projects/geerpc/registry"
-	"Golearn/src/projects/geerpc/server"
-	"Golearn/src/projects/geerpc/xclient"
 	"context"
+	"learn-go/src/projects/geerpc/registry"
+	"learn-go/src/projects/geerpc/server"
+	"learn-go/src/projects/geerpc/xclient"
 	"log"
 	"net"
 	"net/http"

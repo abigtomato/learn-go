@@ -1,11 +1,11 @@
 package session
 
 import (
-	"Golearn/src/projects/geeorm/clause"
-	"Golearn/src/projects/geeorm/dialect"
-	"Golearn/src/projects/geeorm/log"
-	"Golearn/src/projects/geeorm/schema"
 	"database/sql"
+	"learn-go/src/projects/geeorm/clause"
+	"learn-go/src/projects/geeorm/dialect"
+	"learn-go/src/projects/geeorm/log"
+	"learn-go/src/projects/geeorm/schema"
 	"strings"
 )
 

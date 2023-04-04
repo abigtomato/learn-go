@@ -1,9 +1,9 @@
 package geecache
 
 import (
-	"Golearn/src/projects/geecache/geecachepb"
-	"Golearn/src/projects/geecache/singleflight"
 	"fmt"
+	"learn-go/src/projects/geecache/geecachepb"
+	"learn-go/src/projects/geecache/singleflight"
 	"log"
 	"sync"
 )

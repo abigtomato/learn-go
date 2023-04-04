@@ -1,9 +1,9 @@
 package main
 
 import (
-	"Golearn/src/projects/geeorm"
 	"fmt"
 	_ "github.com/mattn/go-sqlite3"
+	"learn-go/src/projects/geeorm"
 )
 
 func main() {

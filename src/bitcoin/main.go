@@ -1,8 +1,8 @@
 package main
 
 import (
-	bc "Golearn/src/bitcoin/blockchain"
 	"fmt"
+	bc "learn-go/src/bitcoin/blockchain"
 	"log"
 	"os"
 	"strconv"
