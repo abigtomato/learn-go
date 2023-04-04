@@ -1,0 +1,28 @@
+// 版本号
+syntax = "proto3";
+
+// proto数据格式文件包
+package my_grpc_proto;
+
+// 生成go语言的访问类:
+// protoc --go_out=plugins=grpc:./ *.proto
+
+// 定义服务
+service HelloServer {
+    // 定义rpc函数
+    rpc SayHello(HelloRequest) returns(HelloReplay) {}
+    rpc GetHelloMsg(HelloRequest) returns(HelloMessage) {}
+}
+
+// 定义消息类型
+message HelloRequest {
+    string name = 1;
+}
+
+message HelloReplay {
+    string message = 1;
+}
+
+message HelloMessage {
+    string msg = 1;
+}

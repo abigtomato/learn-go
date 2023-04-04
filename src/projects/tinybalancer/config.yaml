@@ -1,0 +1,15 @@
+schema: http
+port: 8089
+ssl_certificate:
+ssl_certificate_key:
+tcp_health_check: true
+health_check_interval: 3
+max_allowed: 100
+location:
+  - pattern: /
+    proxy_pass:
+      - "http://192.168.1.1"
+      - "http://192.168.1.2:1015"
+      - "https://192.168.1.2"
+      - "http://my-server.com"
+    balance_mode: round-robin
